@@ -1,0 +1,16 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.6.4
+_src_path: https://github.com/jupyterlab/extension-template
+advanced: false
+author_email: reubengann@gmail.com
+author_name: Reuben Gann
+has_ai_rules: false
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: jupyterlab-find-in-folder
+project_short_description: A JupyterLab extension.
+python_name: jupyterlab_find_in_folder
+repository: ''
+test: false
+

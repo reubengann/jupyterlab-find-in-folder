@@ -1,0 +1,7 @@
+{
+  "ServerApp": {
+    "jpserver_extensions": {
+      "jupyterlab_find_in_folder": true
+    }
+  }
+}

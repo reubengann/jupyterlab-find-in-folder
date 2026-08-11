@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "jupyter.lab.setting-icon": "ui-components:search",
+  "jupyter.lab.setting-icon-label": "Find in Folder",
+  "title": "Find in Folder",
+  "description": "Performance and default matching settings.",
+  "type": "object",
+  "properties": {
+    "debounceMs": {
+      "title": "Search debounce (ms)",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 2000,
+      "default": 250
+    },
+    "defaultExcludes": {
+      "title": "Default exclude globs",
+      "type": "array",
+      "items": { "type": "string" },
+      "default": ["**/.ipynb_checkpoints/**"]
+    },
+    "defaultRegex": {
+      "title": "Use regular expressions by default",
+      "type": "boolean",
+      "default": false
+    },
+    "defaultCaseSensitive": {
+      "title": "Match case by default",
+      "type": "boolean",
+      "default": false
+    },
+    "defaultWholeWord": {
+      "title": "Match whole words by default",
+      "type": "boolean",
+      "default": false
+    },
+    "maxMatches": {
+      "title": "Maximum matches",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50000,
+      "default": 10000
+    },
+    "maxFiles": {
+      "title": "Maximum files",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10000,
+      "default": 2000
+    },
+    "maxMatchesPerFile": {
+      "title": "Maximum matches per file",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5000,
+      "default": 500
+    },
+    "maxOutputBytes": {
+      "title": "Maximum ripgrep output bytes",
+      "type": "integer",
+      "minimum": 100000,
+      "maximum": 100000000,
+      "default": 20000000
+    },
+    "maxLineLength": {
+      "title": "Maximum preview line length",
+      "type": "integer",
+      "minimum": 200,
+      "maximum": 100000,
+      "default": 20000
+    },
+    "timeoutSeconds": {
+      "title": "Search timeout (seconds)",
+      "type": "number",
+      "minimum": 1,
+      "maximum": 300,
+      "default": 30
+    },
+    "batchSize": {
+      "title": "Stream batch size",
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 500,
+      "default": 100
+    }
+  },
+  "additionalProperties": false
+}

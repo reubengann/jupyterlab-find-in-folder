@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="3.162">
+  <testsuite name="SearchModel" errors="0" failures="0" skipped="0" timestamp="2026-08-11T00:33:50" time="2.286" tests="3">
+    <testcase classname="SearchModel ignores events from a superseded request" name="SearchModel ignores events from a superseded request" time="0.002">
+    </testcase>
+    <testcase classname="SearchModel bounds retained matches" name="SearchModel bounds retained matches" time="0">
+    </testcase>
+    <testcase classname="result rows groups files and omits collapsed match rows" name="result rows groups files and omits collapsed match rows" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
